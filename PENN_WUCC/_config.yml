@@ -1,0 +1,10 @@
+title: Wharton Undergraduate Consulting Club
+baseurl: "" 
+url: "" 
+
+
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: css
