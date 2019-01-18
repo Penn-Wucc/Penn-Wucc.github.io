@@ -1,21 +1,41 @@
 ---
-title: Committees
-layout: pagecontent
-permalink: /committees/
+title: Committee
+layout: default
+permalink: /committee/
 ---
 
-<div class="main-content">
-    <div class="">
-        <h2><span>Test</span></h2>
-        <hr>
-    </div>
-    <p>
-        Test 1
-        
-        
-    </p>
-    <div class="">
-        <h2><span>test</span></h2>
-        <hr>
-    </div>
+<div class="container">
+    <h2 class="text-center title"> {{ page.title }}</h1>
+        <div class="">
+                <h2 class="offset-sm-1"><span>Executive Board</span></h2>
+                <div class="row">
+                    {% assign exec = site.data.team["exec"] %}
+                    {% for member in exec %}
+                        {% if member.photoName %}
+                            <div class="col-sm-2 offset-sm-1 columm">
+                                <img src="{{ site.baseurl }}/img/team/{{ member.photoName }}.jpg" class="img-fluid rounded-circle" alt="A photo of {{ member.Name }}">
+                                <h4 class="text-center"> {{ member.Name }}</h4>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <hr>
+            </div>
+            
+            <div class="">
+                <h2><span>Event Directors</span></h2>
+                <div class="row">
+                    {% assign team = site.data.team["team"] %}
+                    {% for member in team %}
+                        {% if member.photoName %}
+                            <div class="col-sm-2 offset-sm-1">
+                                <figure class="figure">
+                                    <img src="{{ site.baseurl }}/img/team/{{ member.photoName }}.jpg" class="figure-img img-fluid rounded-circle" alt="A photo of {{ member.Name }}">
+                                    <figcaption class="figure-caption text-center"><p>Name: {{ member.Name }}</p><p>Position: {{ member.Position }}</p></figcaption>
+                                  </figure>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
 </div>

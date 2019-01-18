@@ -1,0 +1,102 @@
+{
+  "exec" : [
+    {
+      "Email Address": "dkafkes@sas.upenn.edu",
+      "Name": "Diana Kafkes",
+      "Position": "President; Tournament Director",
+      "Year": "Junior (Class of 2020)",
+      "Studies": "Physics",
+      "High School": "Lyons Township High School",
+      "Favorite SOUP": "Tomato Basil Soup",
+      "Bio": "Diana is a junior in the College studying Physics. In her free time you can find her running along the Schuylkill, making pancakes on an industrial scale, or curled up with tea and a nonfiction book. She loves traveling and has been to all 50 states, 12 countries, and is excited to see more. She has many fond Sci Oly memories from high school and is beyond excited to be this year's SOUP Tournament Director.",
+      "FIELD9": "",
+      "photoName": "DSC_0174"
+    },
+    {
+      "Email Address": "xjason@seas.upenn.edu",
+      "Name": "Jason Xian",
+      "Position": "VP of Finance",
+      "Year": "Sophomore (Class of 2021)",
+      "Studies": "Electrical Engineering, Entrepreneurial Management, Finance (M&T) [Minor: Math]",
+      "High School": "Mark Keppel High School",
+      "Favorite SOUP": "Winter Melon Soup",
+      "Bio": "Jason Xian is a sophomore in the Jerome Fisher Program in Management and Technology, pursuing a B.S.E. in Electrical Engineering with a Minor in Math, along with a B.S. in Economics with concentrations in Entrepreneurial Management and Finance.  At Penn, Jason helps raise and manage funds for Penn’s annual Science Olympiad Invitational and the M&T Student Board, where he also serves as a member of the Corporate Committee. Aside from his interests in consumer electronics, one of Jason’s interests is in financial technologies.",
+      "FIELD9": "",
+      "photoName": "DSC_0159"
+    },
+    {
+      "Email Address": "",
+      "Name": "Zihan Xiong",
+      "Position": "VP of Internal/External Affairs",
+      "Year": "Junior (Class of 2020)",
+      "Studies": "Finance, Business Economics and Public Policy, Political Science",
+      "High School": "New Trier High School",
+      "Favorite SOUP": "",
+      "Bio": "",
+      "FIELD9": "",
+      "photoName": "DSC_0091"
+    },
+    {
+      "Email Address": "",
+      "Name": "Eric Frank",
+      "Position": "Tech Director; Circut Lab Event Supervisor",
+      "Year": "Junior",
+      "Studies": "Computer Science",
+      "High School": "Harriton High School",
+      "Favorite SOUP": "Butternut Squash",
+      "Bio": "",
+      "FIELD9": "",
+      "photoName": "DSC_0170"
+    }
+  ],
+  "team" : [
+    {
+      "Email Address": "yitaotu@sas.upenn.edu",
+      "Name": "Violet Tu",
+      "Position": "MAS Science Olympiad Coordinator; Fossils Event Supervisor",
+      "Year": "Sophomore (Class of 2021)",
+      "Studies": "Chemistry, Physics",
+      "High School": "Lakeside High School",
+      "Favorite SOUP": "Chicken Noodle Soup",
+      "Bio": "Violet is a sophomore at the University of Pennsylvania studying Chemistry or Physics with an intent to apply to medical school. She was the captain of her high school's science olympiad team and participated for three years. In her free time, Violet loves to procrastinate studying, binge her favorite shows, and plan activities for Science Olympiad outreach.",
+      "FIELD9": "",
+      "photoName": "DSC_0056"
+    },
+    {
+      "Email Address": "sampathk@sas.upenn.edu",
+      "Name": "Sampath Kumar",
+      "Position": "Anatomy and Physiology Event Supervisor",
+      "Year": "Junior (Class of 2020)",
+      "Studies": "Biological Basis of Behavior",
+      "High School": "Lawton Chiles High School",
+      "Favorite SOUP": "Tom Kha Gai",
+      "Bio": "Sampath hails from sunny Tallahasse, FL. He loves to watch movies, tinker with computers, and watch and play cricket.",
+      "FIELD9": "",
+      "photoName": "DSC_0013"
+    },
+    {
+      "Email Address": "swren@sas.upenn.edu",
+      "Name": "Steven Wren",
+      "Position": "Anatomy and Physiology Event Supervisor",
+      "Year": "Freshman (Class of 2022)",
+      "Studies": "Undecided",
+      "High School": "Staten Island Technical High School",
+      "Favorite SOUP": "Broccoli Cheddar Soup",
+      "Bio": "Hey! My name is Steven, and I am from Staten Island, New York. I competed on my high school's Science Olympiad team and wanted to continue it here, so I am really excited to be a part of SOUP this year! At Penn, I love volunteering in West Philly and exploring the city around us!",
+      "FIELD9": "",
+      "photoName": "DSC_0174(1)"
+    },
+    {
+      "Email Address": "ymlu@sas.upenn.edu",
+      "Name": "Mimi Lu",
+      "Position": "Boomilever Event Supervisor",
+      "Year": "Sophomore (Class of 2021)",
+      "Studies": "Cognitive Science",
+      "High School": "Fayetteville-Manlius High School",
+      "Favorite SOUP": "Chili",
+      "Bio": "Mimi Lu is a sophomore studying Cognitive Science. She competed in Science Olympiad for six years, and two of her favorite events were Experimental Design and Forensics. Science Olympiad was one of the most rewarding activities of her high school career, and she’s excited to be the Event Supervisor for Boomilever. Mimi hopes to use her experience as a former competitor to help make this year’s invitational a fun and worthwhile competition.",
+      "FIELD9": "",
+      "photoName": "DSC_0029"
+    }
+   ]
+}

@@ -1,0 +1,101 @@
+---
+# CSS for the header and footer page
+---
+
+@import 'colors';
+
+.navbar-brand {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100%;
+    background-image: url(/img/WUCC\ LOGO\ 2018.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.nav-bot {
+    width: 5%;
+    margin-left: 5%;
+    height: 50%;
+    background-image: url(/img/WUCC\ LOGO.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.navbar {
+    height: 15%;
+}
+
+.square {
+    width: 3%;
+    height: 60%;
+    position: absolute;
+    left: 48.5%;
+    top: 0%;
+    @media(min-width: 1150px) {
+        background-color: $blue;
+    }
+    @media(max-width: 1149px) {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.rect {
+    width: 10%;
+    height: 70%;
+    @media(min-width: 1000px) {
+        background-color: red;
+    }
+    @media(max-width: 999px) {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    margin-right: 0%;
+}
+
+.fixed-bottom {
+    background-color: $blue;
+    a {
+        margin-right: 0%;
+        color: white;
+    }
+    @media(min-width: 700px) {
+        visibility: visible;
+    }
+    @media(max-width: 699px) {
+        visibility: hidden;
+    }
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: $alt-blue;
+}
+
+.nav-link:visited {
+    color: $blue;
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 54px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    h5 {
+        font-size: 22px;
+    }
+
+    .dropdown-menu {
+        border-radius: 0;
+        border: none;
+        margin-top: 8px;
+        margin-left: -18px;
+    }
+}
