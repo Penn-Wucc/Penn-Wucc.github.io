@@ -19,7 +19,6 @@ body {
     font: 'Montserrat';
     font-weight: 400;
     position: absolute;
-    overflow-y: scroll;
     
 }
 
@@ -42,66 +41,11 @@ body {
     background-color: gray;
     min-height: 50%;
     color: white;
+    padding-top: 2%; 
+    padding-bottom: 2%; 
 }
 
-.content {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    h3 {
-        color: white;
-        border-bottom-color: white;
-    }
-    p {
-        font-size: 1.2rem;
-        strong {
-            color: white;
-            
-        }
-    } 
-}
 
-.redder {
-    width: 75px;
-    height: 75px;
-    margin-right: 5%;
-    margin-top: 2%;
-    background-color: red;
-}
-
-.whiteout {
-    margin-top: 2%;
-    height: 1em;
-    background-color: white;
-}
-
-.secondary {
-    margin-top: 1em;
-}
-
-.subheader {
-    color: #ff6d38;
-}
-
-.subcontent {
-    margin-top:5%;
-}
-.intro {
-    margin-bottom: 30%;
-}
-
-.structure {
-    margin-top: 5%;
-    .content-grey {
-        font-size: 1.1rem;
-    }
-    
-    @media(min-width: 700px) {
-        margin-bottom: 12rem;
-    }
-    @media(max-width: 699px) {
-        margin-bottom: 3rem;
-    }
-}
 // .front-text {
 //     color: #EEEDEA;
 //     text-align: center;
