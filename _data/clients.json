@@ -1,0 +1,9 @@
+{
+    "clients" : [
+        {
+            "client_name" : "Junior Achievement",
+            "description" : "After many years in the industry, junior achievement asked us to consult them on how to transition their business into a new market. Check Junior Achievement online to see our success!",
+            "image_name" : "test_img.webp"
+        }
+    ]
+}
