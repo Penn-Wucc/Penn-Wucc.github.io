@@ -30,5 +30,29 @@ permalink: /clients/
                         </div>
                     {% endfor %}
             </div>
+        <h2>Past Clients</h2>
+        <div class="">
+            {% assign clients = site.data.clients["past_clients"] %}
+            {% for member in clients %}
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2">
+                        <div class="row">
+                            <div class="col-sm-6 logo" style="background-image:url({{site.baseurl}}/img/{{member.image_name}})">
+                            </div>
+                            <div class="col-sm-6 ml-auto">
+                                <div class="row">
+                                    <h3>
+                                        {{ member.client_name }}
+                                    </h3>
+                                </div>
+                                <div class="row">
+                                        {{ member.description }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+    </div>
                 
     </div>
